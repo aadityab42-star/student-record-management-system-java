@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MyStudent
+comment0.text=\r\n\ Represents\ a\ student\ with\ details\ such\ as\ ID,\ name,\ credits,\ and\ grade\ points.\r\n\ The\ class\ supports\ calculating\ GPA\ and\ updating\ student\ records\ based\ on\ grades.\r\n\ \r\n\ Grades\ are\ mapped\ to\ standard\ grade\ points\ to\ calculate\ the\ GPA.\r\n\ \r\n\ @author\ Aaditya\r\n
+comment1.params=id
+comment1.target=MyStudent(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ creating\ a\ "dummy"\ student\ with\ just\ an\ ID.\r\n\ Used\ primarily\ for\ searching\ or\ comparison\ purposes.\r\n\ \r\n\ @param\ id\ The\ student\ ID.\r\n
+comment2.params=id\ firstName\ lastName\ totalCredits\ totalGradePoints
+comment2.target=MyStudent(java.lang.String,\ java.lang.String,\ java.lang.String,\ int,\ double)
+comment2.text=\r\n\ Constructor\ for\ creating\ a\ student\ with\ all\ details.\r\n\ \r\n\ @param\ id\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ The\ student\ ID.\r\n\ @param\ firstName\ \ \ \ \ \ \ \ The\ first\ name\ of\ the\ student.\r\n\ @param\ lastName\ \ \ \ \ \ \ \ \ The\ last\ name\ of\ the\ student.\r\n\ @param\ totalCredits\ \ \ \ \ The\ total\ credits\ completed\ by\ the\ student.\r\n\ @param\ totalGradePoints\ The\ total\ grade\ points\ accumulated\ by\ the\ student.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getId()
+comment3.text=\r\n\ Gets\ the\ student\ ID.\r\n\ \r\n\ @return\ The\ student\ ID.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getFirstName()
+comment4.text=\r\n\ Gets\ the\ first\ name\ of\ the\ student.\r\n\ \r\n\ @return\ The\ first\ name.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getLastName()
+comment5.text=\r\n\ Gets\ the\ last\ name\ of\ the\ student.\r\n\ \r\n\ @return\ The\ last\ name.\r\n
+comment6.params=
+comment6.target=double\ getGPA()
+comment6.text=\r\n\ Gets\ the\ GPA\ (Grade\ Point\ Average)\ of\ the\ student.\r\n\ \r\n\ @return\ The\ GPA,\ or\ 0.0\ if\ the\ student\ has\ no\ completed\ credits.\r\n
+comment7.params=credits\ grade
+comment7.target=void\ takeClass(int,\ java.lang.String)
+comment7.text=\r\n\ Updates\ the\ student's\ records\ by\ adding\ the\ grade\ points\ and\ credits\ for\ a\ new\ class.\r\n\ If\ the\ grade\ is\ invalid,\ no\ changes\ are\ made.\r\n\ \r\n\ @param\ credits\ The\ number\ of\ credits\ for\ the\ class.\r\n\ @param\ grade\ \ \ The\ letter\ grade\ received\ for\ the\ class\ (e.g.,\ "A",\ "B+",\ etc.).\r\n
+numComments=8
